@@ -1,6 +1,6 @@
 /** @type { import("@types/eslint/index.d.ts").Linter.Config } */
 module.exports = {
-  extends: ["turbo", "prettier"],
+  extends: ["next", "turbo", "prettier"],
   settings: {
     react: {
       version: "detect",

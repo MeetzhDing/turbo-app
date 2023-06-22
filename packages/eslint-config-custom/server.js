@@ -1,5 +1,6 @@
+/** @type { import("@types/eslint/index.d.ts").Linter.Config } */
 module.exports = {
-  extends: ["eslint:recommended", "turbo"],
+  extends: ["eslint:recommended", "turbo", "prettier"],
   env: {
     node: true,
     es6: true,
@@ -16,4 +17,8 @@ module.exports = {
       },
     },
   ],
+  rules: {
+    "turbo/no-undeclared-env-vars": "off",
+    "no-unused-vars": "error",
+  },
 };
