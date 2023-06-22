@@ -1,4 +1,4 @@
-import { CounterButton, NewTabLink } from "ui";
+import { CounterButton, NewTabLink } from 'ui';
 
 export default function Index() {
   return (
@@ -9,8 +9,7 @@ export default function Index() {
       </h1>
       <CounterButton />
       <p className="description">
-        Built With{" "}
-        <NewTabLink href="https://turbo.build/repo">Turborepo</NewTabLink> +{" "}
+        Built With <NewTabLink href="https://turbo.build/repo">Turborepo</NewTabLink> +{' '}
         <NewTabLink href="https://remix.run/">Remix</NewTabLink>
       </p>
     </div>

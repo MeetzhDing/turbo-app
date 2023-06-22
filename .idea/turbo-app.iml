@@ -3,6 +3,21 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/admin/.turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/admin/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/api/.turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/api/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/blog/.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/blog/.turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/blog/build" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/blog/public/build" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/scriptable/.turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/scriptable/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/storefront/.turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/logger/.turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/logger/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ui/.turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ui/dist" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>

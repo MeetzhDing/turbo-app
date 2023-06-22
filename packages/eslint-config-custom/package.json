@@ -12,7 +12,9 @@
   "dependencies": {
     "eslint-config-next": "^13.4.7",
     "eslint-config-prettier": "^8.8.0",
+    "eslint-config-tencent": "^1.0.4",
     "eslint-config-turbo": "^1.10.4",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "7.32.2"
   },
   "publishConfig": {

@@ -1,17 +1,5 @@
 /** @type { import("@types/eslint/index.d.ts").Linter.Config } */
 module.exports = {
-  extends: ["turbo", "prettier"],
-  settings: {
-    react: {
-      version: "detect",
-    },
-  },
-  parserOptions: {
-    // babelOptions: {
-    //   presets: [require.resolve("next/babel")],
-    // },
-  },
-  rules: {
-    "no-unused-vars": "error",
-  },
+  extends: ['eslint:recommended', './base', './import', 'prettier'],
+  rules: {},
 };

@@ -4,14 +4,33 @@
     "build": "turbo build",
     "clean": "turbo clean",
     "dev": "turbo dev --no-cache  --continue",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install",
+    "format": "prettier --write \"**/*.{ts,tsx,vue,json,md,mdx}\"",
     "lint": "turbo lint",
     "test": "turbo test"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
     "@types/eslint": "^8.40.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "turbo": "^1.10.4"
   },
-  "packageManager": "pnpm@7.15.0"
+  "packageManager": "pnpm@7.15.0",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint .commitlintrc.js -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{apps,packages}/**/*.{astro,md,mdx}": [
+      "prettier --write"
+    ],
+    "{apps,packages}/**/*.{ts,tsx,astro,vue}": [
+      "eslint --fix"
+    ]
+  }
 }

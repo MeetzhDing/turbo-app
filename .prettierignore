@@ -1,5 +1,8 @@
 # macOS-specific files
 .DS_Store
+.github
+.vscode
+.idea
 
 # environment variables
 .env
