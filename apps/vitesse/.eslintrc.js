@@ -5,5 +5,6 @@ module.exports = {
   extends: ['custom/base', '@antfu', 'prettier'],
   rules: {
     'antfu/if-newline': 'off',
+    'no-console': 'off'
   },
 };
