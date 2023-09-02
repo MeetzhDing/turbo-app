@@ -10,13 +10,13 @@
     "test": "turbo test"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.6",
-    "@commitlint/config-conventional": "^17.6.6",
-    "@types/eslint": "^8.40.2",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@types/eslint": "^8.44.2",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.3",
-    "prettier": "^2.8.8",
-    "turbo": "^1.10.6"
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "turbo": "^1.10.13"
   },
   "packageManager": "pnpm@7.15.0",
   "husky": {
